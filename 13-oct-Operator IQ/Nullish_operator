@@ -1,0 +1,24 @@
+let school=null;
+
+let renameSchool=school?? "viswa";
+
+console.log(`new school name will be ${renameSchool}`);
+
+//here school is empty so automatically viswa will be assigned 
+
+
+let studentname="shanthi"
+
+let newstudentname=studentname ?? "vasanthi";
+
+console.log(`my name is ${newstudentname}`)
+
+//here we have given studentname so that studnetname directly will be printed
+
+let age=null;
+
+let myage =age ??{};
+
+console.log(myage)
+
+//here age is null so we will get {}

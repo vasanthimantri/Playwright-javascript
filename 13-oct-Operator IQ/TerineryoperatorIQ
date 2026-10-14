@@ -1,0 +1,65 @@
+//questions with strict equal to 
+
+let environment="prod";
+
+let currentenvironment = environment==="stagging"? "https:abc.com":"https:welcome.com";
+
+//syntax=first we will define then set consition then true :false
+
+console.log(currentenvironment);
+
+//question related to API
+
+let statuscode=404;
+
+let current_status=statuscode>404 ? "pass" :"Fail"
+
+console.log(current_status);
+
+//with out using any condition 
+
+let isci=true;
+
+let browesr=isci?"headless":"headed";
+
+console.log(browesr);
+
+console.log(`browser is ,${browesr}`);
+
+//nested terinery operator 
+
+let statusCode = 404;
+let category =
+    statusCode < 300 ? "Success" :
+        statusCode < 400 ? "Redirect" :
+            statusCode < 500 ? "Client Error" : "Server Error";
+
+
+
+console.log(`Status ${statusCode}: ${category}`);
+
+
+let age=90;
+
+let boy  = 
+age< 20 ? "young" :
+age <30 ?"middle":
+age >=90? "old":"not aged";
+ 
+console.log(`boy age is ${boy}`);
+
+let temp = 35;
+let feel = (temp >= 40) ? "Very Hot" :
+    (temp >= 30) ? "Hot" :
+        (temp >= 20) ? "Warm" :
+            (temp >= 10) ? "Cool" : "Cold";
+console.log("7. Temperature:", temp, "| Feel:", feel);
+
+//in this case if condition is true it will termiante there it self after execution 35>=30 so output will be hot 
+
+
+
+
+
+
+

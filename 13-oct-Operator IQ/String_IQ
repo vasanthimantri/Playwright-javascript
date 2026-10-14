@@ -1,0 +1,7 @@
+let name="Vasanthi.  ";
+console.log(typeof name);
+
+name +="shanthi";
+//there is no change if we kept + for strings 
+
+console.log(name);

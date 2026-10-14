@@ -1,0 +1,13 @@
+let age= 30;
+
+let iwant_to_go_goa=age >18 ?"u can go ": "u can not go ";
+
+console.log(iwant_to_go_goa)
+
+//spaces are not allowed for variable names 
+
+
+let i_cant=age < 19 ? "u cant" : "it is";
+
+console.log(i_cant)
+
