@@ -1,0 +1,12 @@
+//if we want to change function as arrow function then use below syntax 
+
+let str= (name)=> `Welcome ,${name}`;
+
+console.log(str("hi"));
+
+//if we want to specify the function as arrow function then don't specify arrow and return 
+
+
+const str2 =(username) => `this is another classlogin ${username}`;
+
+console.log(str2("my name is abc "))
